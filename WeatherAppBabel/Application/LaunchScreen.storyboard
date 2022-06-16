@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logotipo-babel" translatesAutoresizingMaskIntoConstraints="NO" id="mjc-Ze-Sot">
+                                <rect key="frame" x="20" y="319" width="374" height="98"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIv-qL-GQw">
+                                <rect key="frame" x="226" y="400" width="168" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                                <color key="textColor" systemColor="systemOrangeColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AIv-qL-GQw" firstAttribute="leading" secondItem="mjc-Ze-Sot" secondAttribute="trailing" constant="-168" id="Dnr-54-h9q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AIv-qL-GQw" secondAttribute="trailing" constant="20" id="Q0b-BX-nYH"/>
+                            <constraint firstItem="mjc-Ze-Sot" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.903382" id="WzW-CL-sJK"/>
+                            <constraint firstItem="mjc-Ze-Sot" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.133152" id="lHW-lG-Mo0"/>
+                            <constraint firstItem="mjc-Ze-Sot" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lY3-ae-dQL"/>
+                            <constraint firstItem="AIv-qL-GQw" firstAttribute="top" secondItem="mjc-Ze-Sot" secondAttribute="bottom" constant="-17" id="pIN-QR-bvU"/>
+                            <constraint firstItem="mjc-Ze-Sot" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="tyN-IQ-RRy"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="374.18478260869568"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logotipo-babel" width="526.79998779296875" height="129.10000610351562"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
