@@ -1,5 +1,5 @@
 # WeatherAppBabel
-WeatherApp technical test
+
 **Introducing the Application:**
 
 - The objective of this project is to create a weather application for IOS device
